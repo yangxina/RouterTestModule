@@ -11,12 +11,14 @@
 		1F858E2FDBA5B268F8077DD3924A3115 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171B194B97075AF392FBF36F08DCFF2C /* Foundation.framework */; };
 		22B907CE8D0E4E72A470E6854BED7D9D /* Pods-RouterTestModule_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 285EC3EE8EA088C6AD95F3A92A3C4B20 /* Pods-RouterTestModule_Tests-dummy.m */; };
 		2B5936A05C6C32539BF51895B0E0293E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171B194B97075AF392FBF36F08DCFF2C /* Foundation.framework */; };
+		35D045F084707C9B94113D3C90DCDB37 /* RouterTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4642DF723A5607770381A7F1A12B9DB7 /* RouterTestClass.swift */; };
+		3C83C168AE412332520F21ACD9467F13 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DDE6808584ECEE5D157CB281BB9DCFF /* LoginViewController.swift */; };
 		4EEC63C2D5FE9962F079BC0E4B5FCD38 /* Pods-RouterTestModule_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD45F49AC77494778F7B59CBBA6C6361 /* Pods-RouterTestModule_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98EE0491B245E575EAB5907C224BC797 /* RouterTestModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02F0514547989C8C3AE6189840C27035 /* RouterTestModule-dummy.m */; };
 		9B3A5C653383C3D184444CA1894E0291 /* NicooSwiftRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D72F4742197D3E69722C1EF89DC0F9D /* NicooSwiftRouter-dummy.m */; };
-		BAFF3D654E35B88435949F6578034A7D /* RouterTestModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E33D095961492069B3D5A62633B06998 /* RouterTestModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC4320ABD558345D4282DAC13080EF44 /* RouterTestClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECD77CC96315AEDDC67D8579A736EB9E /* RouterTestClass.swift */; };
+		BAFF3D654E35B88435949F6578034A7D /* RouterTestModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FC6C1354D615820E419D5279FE6DAB24 /* RouterTestModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBDB399AECCC10B078528EDBFE822A76 /* RouterTestModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2566423EC2C7E80EF4D347D7F62B1E6A /* RouterTestModule-dummy.m */; };
 		D43712AECBF8768D844B123E94A1A574 /* NicooSwiftRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EAAC0A95879139FBF18400CA885329B /* NicooSwiftRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D457170217D41F971B334356950EA6A4 /* Target_RouterLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4200224DB5CF5B0E50BF0747BDD7687 /* Target_RouterLogin.swift */; };
 		D708D70FFD415AC506C035DF0FA97B43 /* Pods-RouterTestModule_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CB1C36D1A6782C26BE4C0B1AE0A273 /* Pods-RouterTestModule_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DAFF341599352F5C5F07DEA6D35DF852 /* NicooSwiftRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98364B28704B0AE16CFBC107BB45EE47 /* NicooSwiftRouter.swift */; };
 		DD8050C274367B5523D420B68B86A36E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 171B194B97075AF392FBF36F08DCFF2C /* Foundation.framework */; };
@@ -56,29 +58,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02F0514547989C8C3AE6189840C27035 /* RouterTestModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RouterTestModule-dummy.m"; sourceTree = "<group>"; };
 		04CB1C36D1A6782C26BE4C0B1AE0A273 /* Pods-RouterTestModule_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RouterTestModule_Tests-umbrella.h"; sourceTree = "<group>"; };
+		09B079EFE9701C65B5A8F54112290A1C /* RouterTestModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RouterTestModule.modulemap; sourceTree = "<group>"; };
 		0E250D86FD0D58B544978D4559443888 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0F315109096229C488282CB59BCC4C34 /* RouterTestModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RouterTestModule-prefix.pch"; sourceTree = "<group>"; };
 		171B194B97075AF392FBF36F08DCFF2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		234A0871CA5548102924FB6DD182D7D2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2566423EC2C7E80EF4D347D7F62B1E6A /* RouterTestModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RouterTestModule-dummy.m"; sourceTree = "<group>"; };
 		285EC3EE8EA088C6AD95F3A92A3C4B20 /* Pods-RouterTestModule_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RouterTestModule_Tests-dummy.m"; sourceTree = "<group>"; };
 		2C7C9C1B760D924F664FBCD935628C1F /* Pods_RouterTestModule_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RouterTestModule_Example.framework; path = "Pods-RouterTestModule_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3205919CFCB6C9DC69E230DED4BD0B03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3019BD711AD7A29F1EF2AA5B4649452C /* RouterTestModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RouterTestModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		307129397A8349E1DEADCA6AE381A6AC /* RouterTestModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RouterTestModule.xcconfig; sourceTree = "<group>"; };
 		36E148F9043C125D05DD7E04C029F18B /* Pods-RouterTestModule_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RouterTestModule_Example-dummy.m"; sourceTree = "<group>"; };
 		3FF7983D982275C48E9513797B6EAC88 /* Pods-RouterTestModule_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouterTestModule_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		429F96C27CAAF8EA4639B86CB40F727B /* Pods-RouterTestModule_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouterTestModule_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4642DF723A5607770381A7F1A12B9DB7 /* RouterTestClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterTestClass.swift; path = RouterTestModule/Classes/RouterTestClass.swift; sourceTree = "<group>"; };
 		494F98F1BDFBE1FAA288459A4B51AC8F /* Pods-RouterTestModule_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouterTestModule_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		4C9E1019389103DA2B0FE2ED5E6C4829 /* NicooSwiftRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NicooSwiftRouter.modulemap; sourceTree = "<group>"; };
 		4D72F4742197D3E69722C1EF89DC0F9D /* NicooSwiftRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NicooSwiftRouter-dummy.m"; sourceTree = "<group>"; };
 		5CF3722BD2A494F0CBB5FB6504FF959F /* Pods-RouterTestModule_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouterTestModule_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		5DDE6808584ECEE5D157CB281BB9DCFF /* LoginViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = RouterTestModule/Classes/LoginViewController.swift; sourceTree = "<group>"; };
 		61A6BB4A0F9AC3999C93806DF45A5B92 /* Pods-RouterTestModule_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RouterTestModule_Tests.modulemap"; sourceTree = "<group>"; };
 		63A32A2187B284102B610BA4123617B2 /* RouterTestModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RouterTestModule.framework; path = RouterTestModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64A2BF46C8BACC5845BAEC87F29D4032 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		685148911DECADC723F2D3D50D556D22 /* Pods-RouterTestModule_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RouterTestModule_Example.modulemap"; sourceTree = "<group>"; };
 		6B6C935A104E83000FBEE10F660D139C /* Pods-RouterTestModule_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RouterTestModule_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6F6CBD80E9B2D68FA94798843D514D8A /* RouterTestModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RouterTestModule.modulemap; sourceTree = "<group>"; };
 		7171EF392BA72E1A7E9771DB55B9C5E7 /* Pods-RouterTestModule_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouterTestModule_Example.release.xcconfig"; sourceTree = "<group>"; };
-		7DFADC272FAF3D134C1E3214EA538884 /* RouterTestModule.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RouterTestModule.xcconfig; sourceTree = "<group>"; };
 		806AF466F5EAB2062175E0145949B583 /* Pods_RouterTestModule_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RouterTestModule_Tests.framework; path = "Pods-RouterTestModule_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		80BA446EFA037E5290CA09F1CD3B3B4B /* Pods-RouterTestModule_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RouterTestModule_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		85D80EDA9642606151ECA3876A02827C /* NicooSwiftRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NicooSwiftRouter-prefix.pch"; sourceTree = "<group>"; };
@@ -86,20 +90,20 @@
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9579CF9F9E8C57587248FC87EDFDF9AF /* NicooSwiftRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NicooSwiftRouter.xcconfig; sourceTree = "<group>"; };
 		98364B28704B0AE16CFBC107BB45EE47 /* NicooSwiftRouter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NicooSwiftRouter.swift; path = NicooSwiftRouter/Classes/NicooSwiftRouter.swift; sourceTree = "<group>"; };
-		A000BEDCFB6EAD6C78A416068109C2E2 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		AA7B789B1C6977F85299EA109F098E6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD45F49AC77494778F7B59CBBA6C6361 /* Pods-RouterTestModule_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RouterTestModule_Example-umbrella.h"; sourceTree = "<group>"; };
 		AF365CA9FB45A021ABFB57FD584A6AB9 /* Pods-RouterTestModule_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouterTestModule_Tests-resources.sh"; sourceTree = "<group>"; };
+		B0AA04CC2BC72A11BF2F6DF0DF8A1951 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3A185037766131873566B9010CB44F2 /* Pods-RouterTestModule_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RouterTestModule_Example-resources.sh"; sourceTree = "<group>"; };
 		B4D45A37470DF0DC192B49D5C0B9E9D7 /* Pods-RouterTestModule_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RouterTestModule_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B5F1DF5189B562F128B6A00B5F00A73A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		C1459FF40D1A02F0906B450CBEB0EED8 /* Pods-RouterTestModule_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RouterTestModule_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E33D095961492069B3D5A62633B06998 /* RouterTestModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RouterTestModule-umbrella.h"; sourceTree = "<group>"; };
+		E4200224DB5CF5B0E50BF0747BDD7687 /* Target_RouterLogin.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Target_RouterLogin.swift; path = RouterTestModule/Classes/Target_RouterLogin.swift; sourceTree = "<group>"; };
+		E53C8B3391BB40A9E85B928141587750 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		E7F0FA30AD49D02953C8A8E5E1E5B8AF /* NicooSwiftRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NicooSwiftRouter.framework; path = NicooSwiftRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB7F737F44409D4021CDC77F3AC74F19 /* RouterTestModule.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RouterTestModule.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		ECD77CC96315AEDDC67D8579A736EB9E /* RouterTestClass.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RouterTestClass.swift; path = RouterTestModule/Classes/RouterTestClass.swift; sourceTree = "<group>"; };
+		EC41B7602C72B80433340575F48B2F87 /* RouterTestModule-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RouterTestModule-prefix.pch"; sourceTree = "<group>"; };
 		F4B8ACC6741178440E29B68995EACA73 /* NicooSwiftRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NicooSwiftRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA64B50F2F2963EB5939EA7FAA9A7540 /* Pods-RouterTestModule_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RouterTestModule_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		FC6C1354D615820E419D5279FE6DAB24 /* RouterTestModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RouterTestModule-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,18 +162,12 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		46F30E033B7B731066E8D746680DE255 /* Support Files */ = {
+		4C610F7382356082C22A421AEF9E4FB5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3205919CFCB6C9DC69E230DED4BD0B03 /* Info.plist */,
-				6F6CBD80E9B2D68FA94798843D514D8A /* RouterTestModule.modulemap */,
-				7DFADC272FAF3D134C1E3214EA538884 /* RouterTestModule.xcconfig */,
-				02F0514547989C8C3AE6189840C27035 /* RouterTestModule-dummy.m */,
-				0F315109096229C488282CB59BCC4C34 /* RouterTestModule-prefix.pch */,
-				E33D095961492069B3D5A62633B06998 /* RouterTestModule-umbrella.h */,
+				9186AE381781D2931D97BF5C7A83164B /* RouterTestModule */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/RouterTestModule";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		61E0B37E263BF09917A350FA142EBCB8 /* Frameworks */ = {
@@ -179,6 +177,16 @@
 				D0D9E7CAB2F701DAB1FA58B09CA89AE3 /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64666BD7BAD14AFAEBB5E4CB314A4A48 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E53C8B3391BB40A9E85B928141587750 /* LICENSE */,
+				64A2BF46C8BACC5845BAEC87F29D4032 /* README.md */,
+				3019BD711AD7A29F1EF2AA5B4649452C /* RouterTestModule.podspec */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7D1AA2595710D01FADFFF8109AED4791 /* Targets Support Files */ = {
@@ -194,7 +202,7 @@
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				F3D9810186287DC921E7264A88B0A2CB /* Development Pods */,
+				4C610F7382356082C22A421AEF9E4FB5 /* Development Pods */,
 				61E0B37E263BF09917A350FA142EBCB8 /* Frameworks */,
 				2BDDC1CC82E4BE7F2FAD9EF51C9519B1 /* Pods */,
 				14F0D42EE8A6EC2B018C39E7B6C4321F /* Products */,
@@ -218,6 +226,33 @@
 			);
 			name = "Pods-RouterTestModule_Tests";
 			path = "Target Support Files/Pods-RouterTestModule_Tests";
+			sourceTree = "<group>";
+		};
+		9186AE381781D2931D97BF5C7A83164B /* RouterTestModule */ = {
+			isa = PBXGroup;
+			children = (
+				5DDE6808584ECEE5D157CB281BB9DCFF /* LoginViewController.swift */,
+				4642DF723A5607770381A7F1A12B9DB7 /* RouterTestClass.swift */,
+				E4200224DB5CF5B0E50BF0747BDD7687 /* Target_RouterLogin.swift */,
+				64666BD7BAD14AFAEBB5E4CB314A4A48 /* Pod */,
+				99584BE79FFD3C87C0D5EDA5C5863A5B /* Support Files */,
+			);
+			name = RouterTestModule;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		99584BE79FFD3C87C0D5EDA5C5863A5B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0AA04CC2BC72A11BF2F6DF0DF8A1951 /* Info.plist */,
+				09B079EFE9701C65B5A8F54112290A1C /* RouterTestModule.modulemap */,
+				307129397A8349E1DEADCA6AE381A6AC /* RouterTestModule.xcconfig */,
+				2566423EC2C7E80EF4D347D7F62B1E6A /* RouterTestModule-dummy.m */,
+				EC41B7602C72B80433340575F48B2F87 /* RouterTestModule-prefix.pch */,
+				FC6C1354D615820E419D5279FE6DAB24 /* RouterTestModule-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/RouterTestModule";
 			sourceTree = "<group>";
 		};
 		BD5EB202F732E00BA5F7C8993ACE6ACB /* Pods-RouterTestModule_Example */ = {
@@ -260,16 +295,6 @@
 			path = "../Target Support Files/NicooSwiftRouter";
 			sourceTree = "<group>";
 		};
-		DE42E63C3EAC4BC7EDB203667559E02A /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				A000BEDCFB6EAD6C78A416068109C2E2 /* LICENSE */,
-				B5F1DF5189B562F128B6A00B5F00A73A /* README.md */,
-				EB7F737F44409D4021CDC77F3AC74F19 /* RouterTestModule.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		F0C7A63C011416E12FD32E620200473D /* NicooSwiftRouter */ = {
 			isa = PBXGroup;
 			children = (
@@ -278,25 +303,6 @@
 			);
 			name = NicooSwiftRouter;
 			path = NicooSwiftRouter;
-			sourceTree = "<group>";
-		};
-		F3D9810186287DC921E7264A88B0A2CB /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F4CFEF6504FE5620998873DCDE7A4192 /* RouterTestModule */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		F4CFEF6504FE5620998873DCDE7A4192 /* RouterTestModule */ = {
-			isa = PBXGroup;
-			children = (
-				ECD77CC96315AEDDC67D8579A736EB9E /* RouterTestClass.swift */,
-				DE42E63C3EAC4BC7EDB203667559E02A /* Pod */,
-				46F30E033B7B731066E8D746680DE255 /* Support Files */,
-			);
-			name = RouterTestModule;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,7 +347,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 748944E6E83905D9EBC31F76A1540676 /* Build configuration list for PBXNativeTarget "RouterTestModule" */;
 			buildPhases = (
-				FB5404123F775F646F18558BC8C6C93E /* Sources */,
+				861D0FB366B821DE14393EEE81DD21E6 /* Sources */,
 				302FAFE8B3BE52E4F6F98E7338236D05 /* Frameworks */,
 				3C3631C5D2E14516D0F01B4F3D005BB3 /* Headers */,
 			);
@@ -448,6 +454,17 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		861D0FB366B821DE14393EEE81DD21E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C83C168AE412332520F21ACD9467F13 /* LoginViewController.swift in Sources */,
+				35D045F084707C9B94113D3C90DCDB37 /* RouterTestClass.swift in Sources */,
+				BBDB399AECCC10B078528EDBFE822A76 /* RouterTestModule-dummy.m in Sources */,
+				D457170217D41F971B334356950EA6A4 /* Target_RouterLogin.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9FFF944C52665082A17F2402E680B052 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -461,15 +478,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				1168BD0978DCAAE3EED14367E534BD88 /* Pods-RouterTestModule_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB5404123F775F646F18558BC8C6C93E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BC4320ABD558345D4282DAC13080EF44 /* RouterTestClass.swift in Sources */,
-				98EE0491B245E575EAB5907C224BC797 /* RouterTestModule-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -572,7 +580,7 @@
 		};
 		2EF0023271A8B483A773E4E3F6EAEC4D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DFADC272FAF3D134C1E3214EA538884 /* RouterTestModule.xcconfig */;
+			baseConfigurationReference = 307129397A8349E1DEADCA6AE381A6AC /* RouterTestModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -795,7 +803,7 @@
 		};
 		B5862D44894B29BF7654A6F4D94E7F1A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7DFADC272FAF3D134C1E3214EA538884 /* RouterTestModule.xcconfig */;
+			baseConfigurationReference = 307129397A8349E1DEADCA6AE381A6AC /* RouterTestModule.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
